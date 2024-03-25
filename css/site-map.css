@@ -1,0 +1,55 @@
+
+body {
+    background-position: 50% 50%;
+    margin:0;
+}
+/*SVG Diagram Style*/
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 45px;
+    color: black;
+}
+
+#svgSiteMap g:hover rect,
+#svgSiteMap g:focus rect{
+    fill: black;
+    fill-opacity: 0.2;
+    stroke: black;
+    cursor: pointer;
+}
+#svgSiteMap g:hover g text,
+#svgSiteMap g:hover text {
+    fill: #bcbcbc;
+    cursor: pointer;
+}
+
+.editorPage{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5rem;
+    padding-bottom: 2rem;
+    float: left;
+}
+.editorPage a:link{
+    color: black;
+}
+.editorPage a:visited{
+    color: black;
+}
+.editorPage a:hover{
+    color: #bcbcbc;
+}
+
+footer{
+	margin-top:50px;
+	width: auto;
+	padding: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+#footertText{
+	color: white;
+}

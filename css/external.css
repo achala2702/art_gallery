@@ -1,0 +1,21 @@
+/*add this file to your html files. remove all these comments before submitting your cw*/
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+/*remove font family from your files use this one only*/
+body{
+    font-family: Arial;
+    background-color: white;
+}
+
+/*dont add margin-top here add it to your own css files*/
+/*footer{margin-top: ;}*/
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+}

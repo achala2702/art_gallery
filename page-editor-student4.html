@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Editor Page</title>
+    <link rel="stylesheet" href="css/page-editor-student4.css">
+    <link rel="stylesheet" href="css/nav-bar.css">
+    <link rel="stylesheet" href="css/external.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+	
+	<!--navigation bar-->
+	<div id="logo">
+    <a href="index.html"><img id="logoImg" src="images/logo.png" alt="logo" /></a>
+    <p id="logoName">Art Gal</p>
+  </div>
+  <ul id="navigationBar">
+    <li id="navBarItem1"><a href="index.html" class="insideLabel">Home</a></li>
+    <li id="navBarItem2"><a href="comments.html" class="insideLabel">Comments</a></li>
+    <li id="navBarItem3"><a href="shop.html" class="insideLabel">Shop</a></li>
+    <li id="navBarItem4"><a href="quiz.html" class="insideLabel">Quiz</a></li>
+    <li id="navBarItem5"><a href="site-map.html" class="insideLabel">Site Map</a></li>
+    <li id="navBarItem6"><a href="student-details.html" class="insideLabel">Student Details</a></li>
+    <li id="navBarItem7"><a href="gallery.html" class="insideLabel">Gallery</a></li>
+  </ul>
+	<!--editor page-->
+	<br><br><br>
+    <h1>Editor Page</h1>
+
+	<div id="text-container">
+	    <div style="display:flex;flex-direction:column;justify-content:center">
+            <div><p id="name" >Name : Achala Nipun<br>
+            Role : Student 4<br><br><b>Tasks Completed<br><br></b></p>
+            <div><ol id="list1">
+                <li>Mughal Painting page</li>
+                <li>Site map using SVG diagrams</li>
+                <li>Thumbnail images page</li>
+                <li>Editor page</li>
+            </ol></div>
+		</div>
+    </div>
+	</div>
+	<!--footer-->
+		<footer>
+			<p id = "footertText">© 2023 Copyright: ArtGal</p>
+		</footer>
+	
+	<!--navigation bar js-->
+	<script>
+	window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+    document.getElementById("navigationBar").style.top = "0%";
+  } else {
+    document.getElementById("navigationBar").style.top = "12%";
+  }
+}
+	</script>
+	<script src="javascript/external.js"></script>
+</body>
+</html>

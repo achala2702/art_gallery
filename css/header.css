@@ -1,0 +1,19 @@
+#logoImg {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0%;
+    height: 10%;
+    margin: 1%;
+}
+  
+#logoName {
+    color: rgb(0, 0, 0);
+    top: 0%;
+    height: 10%;
+    text-align: center;
+    font-weight: bold;
+    padding: 0%;
+    margin: 1%;
+    font-size: 500%;
+}
